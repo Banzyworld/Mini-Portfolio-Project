@@ -36,7 +36,7 @@ header img {
     width: 120px;
 }
 
-img {
+/* img {
     background-color: transparent;
      width: 100%;
      height: 15%;
@@ -44,7 +44,7 @@ img {
     
 
 
-}
+} */
 
 
 
@@ -69,21 +69,29 @@ li {
  background: transparent;
  color: black;
  margin: 10px;
- 
  justify-content: space-around;
  }
 
 
-.design {
-    background-image: url(lady\ in\ pink.jpg);
+.designs { 
+    background: rgba(0, 0, 0, 0.151) url(images/lady\ in\ pink.jpg);
+    background-blend-mode: multiply;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+    height: 145vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
  
  }
 
  .service {
 
-    position: absolute;
+    /* position: absolute; */
     top: 50%;
     width: 100%;
     text-align: left;
@@ -103,13 +111,13 @@ h4 {
 }
  
 
-main h1 {font-size: 55px;
+.service h1 {font-size: 55px;
         word-spacing: 25px;
         letter-spacing: 10px ;
         color: palevioletred;
 
 }
-main p {
+.service p {
     color: black;
 
 
@@ -178,9 +186,10 @@ button {
 
   .query { display: flex;
          flex-direction: row;
-        
         font-size: larger;
         padding: 0 28% 0 32%;
+        margin-top: 25px;
+        height: 2vh;
        
   }
     .query h5 {
